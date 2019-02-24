@@ -1,5 +1,5 @@
 #!/bin/bash
-#diziye gir
+#open directory
 
 FINDPATH(){
 #!/bin/bash
@@ -18,7 +18,7 @@ echo  $FILE_PATH
 #return path of file
 else 
 
-echo 'aradiginiz dosya bulunamadi'
+echo 'file not found'
 fi
 
 }
@@ -41,7 +41,7 @@ echo "domain->" $DOMAIN
 echo "ip->" $IP
 
 NAMESERVER1=$(dig -x "$IP" +answer | grep 'arpa.\ [0-9]' | cut -d'R' -f2 | sed 's/[^a-z.]//g')
-#dosyaya yazma
+#write to document
 
 NAMESERVER=$(echo $NAMESERVER1 | tr ' ' '\n')
 
@@ -57,7 +57,7 @@ done<$TXTFILE
 
 
 #!/bin/bash
-#diziye gir
+#open directory
 
 
 if [ $1 ]
@@ -88,7 +88,7 @@ done
 
 else
 
-	echo "Lütfen klasör ismini giriniz"
+	echo "Enter File Name"
 	exit 0
 fi
 
