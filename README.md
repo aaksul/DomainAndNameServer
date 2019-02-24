@@ -1,2 +1,2 @@
 # DomainAndNameServer
-Bash Script that digging Domain and find nameserver afterwards write them to document  
+Bash Script that find nameserver with digging domain afterwards write them to document  
