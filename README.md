@@ -1,2 +1,2 @@
 # DomainToNameServer
-Bash Script that find nameserver with digging domain afterwards write them to document  
+Bash Script that find nameserver from domain
