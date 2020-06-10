@@ -26,7 +26,7 @@ fi
 
 ask_write(){
 
-#this script give ip adrress from domain
+#script find ip adrress from domain
 TXTFILE=$1
 CATEG=$2
 FILEDIRECTORY=$(dirname  $TXTFILE)
